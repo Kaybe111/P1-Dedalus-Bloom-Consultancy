@@ -6,28 +6,39 @@
     border: none;
 }
 
-/* Header and logo styling */
-
 body {
     color: rgb(12, 7, 7);
     font-family: 'Cairo', sans-serif;
 }
 
-#logo {
-    color: rgb(41, 34, 34);
-    font-family: 'Michroma', sans-serif;
-    margin: 10px 0 0 30px;
+/* Header and logo styling */
+
+header {
+    border: 1px solid black;
+    height: 120px;
 }
 
-#logo a {
+header a {
     text-decoration: none;
 }
 
-#menu {
+#logo {
     color: rgb(41, 34, 34);
+    border: 1px solid black;
+    font-family: 'Michroma', sans-serif;
+    margin: 10px 0 0 10px;
+    width: 50%;
+    display: inline-block;
+}
+
+#menu {
+    color: inherit;
     font-size: 120%;
     float: right;
-    margin-right: 5%
+    height: 90px;
+    line-height: 75px;
+    margin: 10px 10px 10px 0;
+    border: 1px solid black;
 }
 
 #menu li {
@@ -37,6 +48,10 @@ body {
     padding: 10px;
 }
 
-#menu a {
-    text-decoration: none;
+#menu a:hover {
+    background-color: aquamarine;
+}
+
+.active {
+    border-bottom: 1px solid rgb(29, 55, 34);
 }
