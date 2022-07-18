@@ -67,4 +67,31 @@ Out-of-scope for this build
 
 #### Information architecture
 
-- Organisational and navigational scheme
+- Organisational and navigational scheme, principal of organisation is that the website is focussed on the client and not on the colleagues/workforce/employees or investors
+- site is non-linear and hyperlinked via Nav bar
+
+### Skeleton plane considerations
+
+- establish value
+- lead user to continue the exploration experience
+- introduce specific content at relevant points
+- add value with each click/tap
+- add positivity with each interaction
+
+#### visual conventions
+- use icons for services and pricing
+
+#### Features and usefulness
+
+- main content and shape is consistent
+- progressive disclosure (avoid cognitve overload)
+- group elements in order of importance
+- keep form simple (remember Hick-Hyman law) and use simple calls to action
+
+### Surface plane considerations
+
+- color, layout, fonts, images, order, sequence
+- identity
+- economy
+- readability including contrast in font and background versus foreground colors
+- layout - repetition, contrast, proximity, alignment 
