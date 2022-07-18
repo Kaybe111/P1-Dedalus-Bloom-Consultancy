@@ -6,6 +6,10 @@
     border: none;
 }
 
+/* Header styling */
+
 #logo {
     font-family: 'Cinzel Decorative', Arial, cursive;
+    color: rgb(rgb(44, 39, 39));
+    text-decoration: none;
 }
