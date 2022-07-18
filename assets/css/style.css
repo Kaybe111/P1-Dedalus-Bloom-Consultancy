@@ -6,10 +6,37 @@
     border: none;
 }
 
-/* Header styling */
+/* Header and logo styling */
+
+body {
+    color: rgb(12, 7, 7);
+    font-family: 'Cairo', sans-serif;
+}
 
 #logo {
-    font-family: 'Cinzel Decorative', Arial, cursive;
-    color: rgb(rgb(44, 39, 39));
+    color: rgb(41, 34, 34);
+    font-family: 'Michroma', sans-serif;
+    margin: 10px 0 0 30px;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+#menu {
+    color: rgb(41, 34, 34);
+    font-size: 120%;
+    float: right;
+    margin-right: 5%
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+#menu a {
     text-decoration: none;
 }
