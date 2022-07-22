@@ -33,6 +33,17 @@ header a {
     display: inline-block;
 }
 
+/* BUG to fix */
+
+header > div {
+    background-color: blue;
+    width: 50%;
+    height: 10px:
+    
+}
+
+/* nav bar styling */
+
 #menu {
     color: inherit;
     font-family: 'Michroma', sans-serif;
@@ -60,3 +71,7 @@ header a {
 }
 
 /* footer */
+
+footer a {
+    line-height: 75px;
+}
