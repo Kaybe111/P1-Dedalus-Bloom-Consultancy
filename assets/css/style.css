@@ -9,7 +9,7 @@
 body {
     color: red;
     font-family: 'Cairo', sans-serif;
-    background-color: rgb(198, 221, 246);
+    background-color: whitesmoke;
 }
 
 /* Header and logo styling */
@@ -72,6 +72,41 @@ header > div {
 
 /* footer */
 
-footer a {
+footer {
+    height: 150px;
+}
+
+footer h3 {
+    font-size: 20px;
+}
+
+.social-media-links {
+    text-align: center;
+    display: inline-block;
+    width: 40%;
+    color: black;
+    font-size: 80px;
+}
+
+footer li {
     line-height: 75px;
+    font-size: 50px;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 5px;
+    color: rgb(41, 34, 34);
+    list-style-type: none;
+    display: inline;
+}
+
+.company-contact-info {
+    float: right;
+    width: 50%;
+    color: rgb(41, 34, 34);
+    font-size: small;
+}
+
+.address {
+    float: left;
+    padding: 10%;
 }
