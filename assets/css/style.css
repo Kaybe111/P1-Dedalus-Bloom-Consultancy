@@ -70,10 +70,28 @@ header > div {
 
 /* main body sections */
 
-#bridge-image {
+#bridge-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#bridge-inner-image {
     height: 600px;
     width: 100%;
     background: url(../images/pexels-luciann-photography-3566191.jpeg) no-repeat center center;
+    animation-name: bridge-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+/* zoom animation on main image */
+@keyframes bridge-zoom {
+    from{
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 #company-identity-summary {
