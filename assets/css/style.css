@@ -70,6 +70,17 @@ header > div {
     border-bottom: 1px solid rgb(29, 55, 34);
 }
 
+/* main body sections */
+
+#company-identity-summary {
+    color: black;
+    width: 50%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: 1px solid black;
+}
+
 /* footer */
 
 footer {
@@ -109,4 +120,9 @@ footer li {
 .address {
     float: left;
     padding: 10%;
+}
+
+.googlemaps-frame {
+    height: 100px;
+    margin-top: 20px;
 }
