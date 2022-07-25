@@ -70,10 +70,19 @@ header > div {
 
 /* main body sections */
 
+#action-quote {
+    color: rgb(41, 34, 34);
+    font-size: 110%;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid black;
+}
+
 #bridge-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #bridge-inner-image {
@@ -95,13 +104,14 @@ header > div {
 }
 
 #company-identity-summary {
-    color: black;
+    color: white;
     width: 50%;
     height: 200px;
     margin-top: 20px;
     margin-left: 40px;
     border: 1px solid black;
-    
+    background-color: rgba(130, 177, 238, 0.854);
+    position: absolute;
 }
 
 /* footer */
@@ -118,14 +128,16 @@ footer h3 {
     text-align: center;
     display: inline-block;
     width: 40%;
-    color: black;
+    color: rgb(41, 34, 34);
     font-size: 80px;
+    margin: 10px 0 0 60px;
+    border: 1px solid black;
 }
 
 footer li {
     line-height: 75px;
     font-size: 50px;
-    padding: 2px;
+    padding: 10px;
     border: 1px solid black;
     margin: 5px;
     color: rgb(41, 34, 34);
@@ -138,14 +150,16 @@ footer li {
     width: 50%;
     color: rgb(41, 34, 34);
     font-size: small;
+    border: 1px solid black;
 }
 
 .address {
     float: left;
-    padding: 10%;
+    padding: 15px 25px 0 0;
 }
 
 .googlemaps-frame {
-    height: 100px;
+    width: 50%;
+    height: 250px;
     margin-top: 20px;
 }
