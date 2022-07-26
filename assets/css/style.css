@@ -163,3 +163,38 @@ footer li {
     height: 250px;
     margin-top: 20px;
 }
+
+/* Pricing page styling */
+
+#pricing-information {
+    color: black;
+    margin-bottom: 30px;
+}
+
+#pricing-information h2 {
+    padding: 5px 0 0 15px;
+}
+
+#pricing-information h4 {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+table {
+    padding-left: 15px;
+}
+
+th {
+    font-weight: bolder;
+    width: 15%;
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+
+tr {
+    font-weight: lighter;
+}
+
+aside {
+    margin: 5px 0 15px 0;
+}
