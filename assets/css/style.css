@@ -164,7 +164,44 @@ footer li {
     margin-top: 20px;
 }
 
-/* Pricing page styling */
+/* services.html styling */
+
+#services-list {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.service-type {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+#leftmost-service-type {
+    margin-left: 20px;
+}
+
+#services-list h2 {
+    padding: 15px;
+}
+
+#services-list h3 {
+    padding: 15px;
+    text-align: center;
+}
+
+#services-list article {
+    font-size: medium;
+}
+
+#services-list i {
+    font-size: 5rem;
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+/* pricing.html styling */
 
 #pricing-information {
     color: black;
