@@ -45,33 +45,37 @@
     <section id="contactpage">
         <h2>Contact us today</h2>
         <div id="contact-form">
-            <form action="formsubmitpage.html" method="dialog">
+            <form action="https://formdump.codeinstitute.net" method="post">
                 <fieldset id="customerdetails">
                     <legend>Your contact information</legend>
                     <label for="contactname">Name:</label>
-                    <input id="contactname" type="text">
+                    <input id="contactname" type="text" placeholder="Full Name" required>
                     <br>
                     <label for="contacttelephone">Telephone:</label>
-                    <input id="contacttelephone" type="text">
+                    <input id="contacttelephone" type="text" placeholder="e.g. +353851111111" required>
                     <br>
                     <p>Ok to contact via SMS/Whatsapp?</p>
-                    <label for="">Yes</label>
-                    <input type="radio">
-                    <label for="">No</label>
-                    <input type="radio">
+                    <label for="permitted">Yes</label>
+                    <input id="permitted" name="messagingpermission" type="radio" required>
+                    <label for="refused">No</label>
+                    <input id="refused" name="messagingpermission" type="radio">
                     <br>
                     <label for="">Email:</label>
-                    <input type="email">
+                    <input type="email" placeholder="Business email address" required>
                 </fieldset>
                 <fieldset id="projectinfo">
                     <legend>Tell us a little about your project, plans, intentions - high level.</legend>
                     <label for="projectinfo"></label>
-                    <textarea name="projectinfo" id="projectinfo" cols="65" rows="10"></textarea>
+                    <textarea name="projectinfo" id="projectinfo" cols="65" rows="10" 
+                    placeholder="Optional brief outline of reason for contact"></textarea>
                 </fieldset>
                 <button type="submit">Let's talk further</button>
-                
             </form>
         </div>
+        <div id="form-image">
+
+        </div>
+        <br>
         <span>
             Thank you for your time, trust and interest. You will hear from us shortly, looking forward to 
             speaking with you further.

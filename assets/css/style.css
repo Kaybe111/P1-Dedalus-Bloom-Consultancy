@@ -249,6 +249,11 @@ aside {
 
 #contact-form {
     width: 40%;
+    display: inline-block;
+}
+
+#contact-form span {
+    display: block;
 }
 
 #customerdetails, #projectinfo {
@@ -273,3 +278,15 @@ button {
     margin-top: 10px;
 }
 
+#form-image {
+    width: 50%;
+    height: 400px;
+    background-color: green;
+    display: inline-block;
+}
+
+/* form submit redirect html page styling */
+
+#thank-you-redirect-message {
+    color: black;
+}
