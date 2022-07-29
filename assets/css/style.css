@@ -7,7 +7,7 @@
 }
 
 body {
-    color: red;
+    color: rgb(41, 34, 34);
     font-family: 'Cairo', sans-serif;
     background-color: whitesmoke;
 }
@@ -37,7 +37,6 @@ header > div {
     background-color: blue;
     width: 50%;
     height: 10px;
-    
 }
 
 /* nav bar styling */
@@ -88,7 +87,7 @@ header > div {
 #bridge-inner-image {
     height: 600px;
     width: 100%;
-    background: url(../images/pexels-luciann-photography-3566191.jpeg) no-repeat center center;
+    background: url(../images/pexels-luciann-3566191-resizev4.jpeg) no-repeat center center;
     animation-name: bridge-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -289,4 +288,51 @@ button {
 
 #thank-you-redirect-message {
     color: black;
+}
+
+/* Media Queries */
+
+/* for large to medium screem of 1200px wide and down */
+
+#logo {
+    width: 100%;
+    font-size: 110%;
+}
+
+#menu {
+    float: left;
+    font-size: 90%;
+}
+
+header > div {
+    background-color: blue;
+    width: 50%;
+    height: 10px;
+}
+
+/* for medium screen sizes of 950px and down */
+
+/* for small screen sizes of 400px and smaller */
+
+#logo {
+    width: 100%;
+    font-size: 80%;
+}
+#menu {
+    font-size: 45%;
+    height: 45px;
+    line-height: 30px;
+    border: none;
+}
+
+header > div {
+    width: 100%;
+    height: 5px;
+}
+
+#action-quote {
+    font-size: 70%;
+    padding: 2px;
+    margin: 10px;
+    border: none;
 }
