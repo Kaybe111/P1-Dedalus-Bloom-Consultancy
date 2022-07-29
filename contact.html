@@ -41,46 +41,41 @@
             
         </div>
     </header>
-    <!-- Add contact form over background image -->
-    <section id="contactpage">
-        <h2>Contact us today</h2>
-        <div id="contact-form">
-            <form action="https://formdump.codeinstitute.net" method="post">
-                <fieldset id="customerdetails">
-                    <legend>Your contact information</legend>
-                    <label for="contactname">Name:</label>
-                    <input id="contactname" type="text" placeholder="Full Name" required>
-                    <br>
-                    <label for="contacttelephone">Telephone:</label>
-                    <input id="contacttelephone" type="text" placeholder="e.g. +353851111111" required>
-                    <br>
-                    <p>Ok to contact via SMS/Whatsapp?</p>
-                    <label for="permitted">Yes</label>
-                    <input id="permitted" name="messagingpermission" type="radio" required>
-                    <label for="refused">No</label>
-                    <input id="refused" name="messagingpermission" type="radio">
-                    <br>
-                    <label for="">Email:</label>
-                    <input type="email" placeholder="Business email address" required>
-                </fieldset>
-                <fieldset id="projectinfo">
-                    <legend>Tell us a little about your project, plans, intentions - high level.</legend>
-                    <label for="projectinfo"></label>
-                    <textarea name="projectinfo" id="projectinfo" cols="65" rows="10" 
-                    placeholder="Optional brief outline of reason for contact"></textarea>
-                </fieldset>
-                <button onclick="formsubmitpage.html" type="submit">Let's talk further</button>
-            </form>
-        </div>
-        <div id="form-image">
-
-        </div>
-        <br>
-        <span>
-            Thank you for your time, trust and interest. You will hear from us shortly, looking forward to 
-            speaking with you further.
-        </span>
-    </section>
+    <main>
+        <section id="contactpage">
+            <div id="contact-form">
+                <form action="https://formdump.codeinstitute.net" method="post">
+                    <fieldset id="customerdetails">
+                        <legend><h2>Your contact information</h2></legend>
+                        <label for="contactname">Name:</label>
+                        <input id="contactname" type="text" placeholder="Full Name" required>
+                        <br>
+                        <label for="contacttelephone">Telephone:</label>
+                        <input id="contacttelephone" type="text" placeholder="e.g. +353851111111" required>
+                        <br>
+                        <p>Ok to contact via SMS/Whatsapp?</p>
+                        <label for="permitted">Yes</label>
+                        <input id="permitted" name="messagingpermission" type="radio" required>
+                        <label for="refused">No</label>
+                        <input id="refused" name="messagingpermission" type="radio">
+                        <br>
+                        <label for="">Email:</label>
+                        <input type="email" placeholder="Business email address" required>
+                    </fieldset>
+                    <fieldset id="projectinfo">
+                        <legend>Tell us a little about your project, plans, intentions - high level.</legend>
+                        <label for="projectinfo"></label>
+                        <textarea name="projectinfo" id="projectinfo" cols="65" rows="10" 
+                        placeholder="Optional brief outline of reason for contact"></textarea>
+                    </fieldset>
+                    <button onclick="formsubmitpage.html">Let's talk further</button>
+                </form>
+            </div>
+            <div id="form-image">
+                <img src="/assets/images/pexels-yan-krukov-8867482-L.jpeg" alt="picture of contact center staff smiling">
+            </div>
+        </section> 
+    </main>
     
     <footer>
         <div class="social-media-links">

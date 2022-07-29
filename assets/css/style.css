@@ -12,11 +12,6 @@ body {
     background-color: whitesmoke;
 }
 
-body > a:link :visited {
-    color: rgb(41, 34, 34);
-
-}
-
 /* Header and logo styling */
 
 header {
@@ -232,46 +227,48 @@ aside {
 /* contact.html styling */
 
 #contactpage {
-    color: black;
-    margin: 15px 0 15px 15px;
+    margin: 15px 0 50px 15px;
+    display: flex;
+    align-items: flex-start;
 }
 
 #contact-form {
-    width: 40%;
-    display: inline-block;
+    margin-left: 5%;
+    width: 45%;
 }
 
-#contact-form span {
-    display: block;
-}
-
-#customerdetails, #projectinfo {
-    border: 1px solid blue;
-    border-radius: 5px;
+#customerdetails {
     margin-top: 10px;
+}
+
+#projectinfo {
+    margin-top: 40px;
 }
 
 #projectinfo textarea {
     margin: 15px 15px;
 }
 
-button {
+#contact-form button {
     background-color: blue;
     font-family: 'Michroma', sans-serif;
     color: white;
     font-weight: bold;
-    border: 2px solid black;
-    border-radius: 3px;
-    width: 100px;
+    width: 200px;
     height: 50px;
     margin-top: 10px;
+    margin-left: 200px;
 }
 
 #form-image {
     width: 50%;
     height: 400px;
     background-color: green;
-    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+#form-image img {
+    width: 100%;
 }
 
 /* form submit redirect html page styling */
