@@ -12,21 +12,27 @@ body {
     background-color: whitesmoke;
 }
 
+body > a:link :visited {
+    color: rgb(41, 34, 34);
+
+}
+
 /* Header and logo styling */
 
 header {
-    border: 1px solid black;
     height: 120px;
 }
 
 header a {
     text-decoration: none;
+}
+
+header a:link, a:visited {
     color: rgb(41, 34, 34);
+
 }
 
 #logo {
-    color: rgb(41, 34, 34);
-    border: 1px solid black;
     font-family: 'Michroma', sans-serif;
     margin: 10px 0 0 10px;
     width: 50%;
@@ -49,7 +55,6 @@ header > div {
     height: 90px;
     line-height: 75px;
     margin: 10px 10px 10px 0;
-    border: 1px solid black;
 }
 
 #menu li {
@@ -74,7 +79,6 @@ header > div {
     font-size: 110%;
     padding: 10px;
     margin: 15px;
-    border: 1px solid black;
 }
 
 #bridge-outer {
@@ -111,16 +115,15 @@ footer {
 
 footer h3 {
     font-size: 20px;
+    margin-top: 20px;
 }
 
 .social-media-links {
     text-align: center;
     display: inline-block;
-    width: 40%;
-    color: rgb(41, 34, 34);
+    width: 50%;
     font-size: 80px;
-    margin: 10px 0 0 60px;
-    border: 1px solid black;
+    margin: 40px 0 60px 0;
 }
 
 .social-media-links i {
@@ -131,8 +134,6 @@ footer li {
     line-height: 75px;
     font-size: 50px;
     padding: 10px;
-    border: 1px solid black;
-    margin: 5px;
     color: rgb(41, 34, 34);
     list-style-type: none;
     display: inline;
@@ -143,7 +144,6 @@ footer li {
     width: 50%;
     color: rgb(41, 34, 34);
     font-size: small;
-    border: 1px solid black;
 }
 
 .address {
@@ -284,6 +284,8 @@ button {
 
 /* for large to medium screem of 1200px wide and down */
 
+@media screen and (max-width: 1200px) {
+    
 #logo {
     width: 100%;
     font-size: 110%;
@@ -299,11 +301,14 @@ header > div {
     width: 50%;
     height: 10px;
 }
+}
 
 /* for medium screen sizes of 950px and down */
 
 /* for small screen sizes of 400px and smaller */
 
+@media screen and (max-width: 400px) {
+    
 header {
     border: none;
     height: 100px;
@@ -357,11 +362,10 @@ footer h3 {
 }
 
 .social-media-links {
-    text-align: center;
     display: inline-block;
     width: 40%;
     color: rgb(41, 34, 34);
-    font-size: 40px;
+    font-size: 10px;
     margin: 10px 0 0 60px;
     border: none;
 }
@@ -398,4 +402,5 @@ footer li {
     width: 50%;
     height: 250px;
     margin-top: 20px;
+}
 }
