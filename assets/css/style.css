@@ -138,7 +138,6 @@ footer li {
 .company-contact-info {
     float: right;
     width: 50%;
-    color: rgb(41, 34, 34);
     font-size: small;
 }
 
@@ -306,7 +305,7 @@ aside {
 
     #logo {
         width: 100%;
-        font-size: 140%;
+        font-size: 160%;
     }
 
     #menu {
@@ -322,23 +321,63 @@ aside {
     }
 }
 
-/* for medium screen sizes of 950px and down */
+/* for medium screen sizes of 980px and down */
 
-@media screen and (max-width: 950px){
-    
-header > div {
-    width: 120%;
-    height: 5px;
-    clear: both;
-}
+@media screen and (max-width: 980px) {
 
-.service-type {
-    width: auto;
-    display: block;
-    padding: 20px;
-}
-}
+    header {
+        height: 200px;
+    }
 
+    #logo {
+        width: 100%;
+        height: 40px;
+        font-size: 140%;
+    }
+
+    header>div {
+        width: 120%;
+        height: 5px;
+        clear: both;
+    }
+
+    .social-media-links {
+        text-align: center;
+        display: inline-block;
+        width: 40%;
+        font-size: 80px;
+        margin: 40px 0 60px 0;
+    }
+
+    .company-contact-info {
+        float: right;
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .service-type {
+        width: auto;
+        display: block;
+        padding: 20px;
+    }
+
+
+    #pricing-information h2 {
+        font-size: large;
+    }
+
+    #pricing-information h4 {
+        font-size: medium;
+    }
+
+    table {
+        font-size: small;
+    }
+
+    #pricing-information aside {
+        font-size: small;
+    }
+}
 
 /* for small screen sizes of 400px and smaller */
 
@@ -361,7 +400,7 @@ header > div {
         float: left;
     }
 
-    header > div {
+    header>div {
         width: 120%;
         height: 5px;
         clear: both;
@@ -400,10 +439,6 @@ header > div {
         margin: 0;
         clear: both;
         float: left;
-    }
-
-    .social-media-links i {
-        color: rgb(41, 34, 34);
     }
 
     footer li {
@@ -470,4 +505,19 @@ header > div {
         padding: 0;
     }
 
+    #pricing-information h2 {
+        font-size: medium;
+    }
+
+    #pricing-information h4 {
+        font-size: small;
+    }
+
+    table {
+        font-size: x-small;
+    }
+
+    #pricing-information aside {
+        font-size: x-small;
+    }
 }
