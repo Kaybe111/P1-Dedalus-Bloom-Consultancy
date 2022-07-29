@@ -588,3 +588,16 @@ aside {
         height: 400px;
     }
 }
+
+/* for small screen sizes of 360px and smaller */
+
+@media screen and (max-width: 360px) {
+    menu {
+        font-size: 40%;
+    }
+
+    #menu li {
+        letter-spacing: 2px;
+        padding: 5px;
+    }
+}
