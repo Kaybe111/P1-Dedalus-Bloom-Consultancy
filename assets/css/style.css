@@ -324,12 +324,21 @@ aside {
 
 /* for medium screen sizes of 950px and down */
 
+@media screen and (max-width: 950px){
+    
+header > div {
+    width: 120%;
+    height: 5px;
+    clear: both;
+}
 
 .service-type {
     width: auto;
     display: block;
     padding: 20px;
 }
+}
+
 
 /* for small screen sizes of 400px and smaller */
 
@@ -352,7 +361,7 @@ aside {
         float: left;
     }
 
-    header>div {
+    header > div {
         width: 120%;
         height: 5px;
         clear: both;
