@@ -258,6 +258,7 @@ aside {
 #form-image {
     width: 50%;
     height: 400px;
+    background-image: url(/assets/images/pexels-yan-krukov-8867482-L.jpeg);
 }
 
 #form-image picture {
