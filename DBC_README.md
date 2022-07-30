@@ -165,3 +165,9 @@ I used the website Pexels for the free images.
 - Dublin bridge on ABOUT page was courtesy of 'Luciann Photography'.
 - Contact center agents courtesy of Yan Krukov.
 - Flowchart collaboration image on ThankYou screen courtesy of Christina Morillo.
+
+
+                <picture>
+                    <source srcset="/assets/images/pexels-yan-krukov-8867482-L.jpeg" media="(min-width: 980px)">
+                    <img src="/assets/images/pexels-yan-krukov-8867482-M.jpeg" alt="picture of contact center staff smiling">
+                </picture>
