@@ -408,9 +408,19 @@ aside {
     }
 }
 
-/* for medium screen sizes of 800px and smaller */
+/* for screen sizes of 935px and smaller, to specifically fix the placement of the Google maps iframe in the footer */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 935px) {
+    
+    .company-contact-info {
+        font-size: 10px;
+    }
+
+}
+
+/* for medium screen sizes of 820px and smaller, for example iPad Air */
+
+@media screen and (max-width: 820px) {
     .company-contact-info {
         width: 50%;
     }
@@ -432,9 +442,37 @@ aside {
     }
 }
 
-/* for small screen sizes of 400px and smaller */
+/* for medium to small screen sized of 720px and lower */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 720px) {
+    
+    footer li {
+        font-size: 30px;
+    }
+
+}
+
+/* for medium to small screen sized of 520px and lower, to fix the size of the social media icons 
+and the spill over of the nav bar contact link onto a new line */
+
+@media screen and (max-width: 520px) {
+    
+    #menu {
+        font-size: 50%;
+    }
+
+    .social-media-links {
+        font-size: 40px;
+    }
+
+    footer li {
+        font-size: 15px;
+    }
+}
+
+/* for small screen sizes of 460px and smaller */
+
+@media screen and (max-width: 460px) {
 
     header {
         height: 120px;

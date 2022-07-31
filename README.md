@@ -99,15 +99,15 @@ I had a few from my 'scope plane requirements':
 #### Needs
 - [x] overview of services
 - [x] overview of company
-- [] overview of projects
+- [ ] overview of projects
 - [x] overview of pricing (retainer vs project/programme)
 - [x] contacts
 
 #### Content requirements
 - [x] text
-- [] video
+- [ ] video
 - [x] photos/stills
-- [] chat and social media contacts
+- [ ] chat and social media contacts
 
 In essence there are two extra features I would include in future:
 - - a page of past partners, projects and testimonials to further add to the credibility of the business and thus increase the likelihood of being contracted.
@@ -165,9 +165,3 @@ I used the website Pexels for the free images.
 - Dublin bridge on ABOUT page was courtesy of 'Luciann Photography'.
 - Contact center agents courtesy of Yan Krukov.
 - Flowchart collaboration image on ThankYou screen courtesy of Christina Morillo.
-
-
-                <picture>
-                    <source srcset="/assets/images/pexels-yan-krukov-8867482-L.jpeg" media="(min-width: 980px)">
-                    <img src="/assets/images/pexels-yan-krukov-8867482-M.jpeg" alt="picture of contact center staff smiling">
-                </picture>
