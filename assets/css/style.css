@@ -647,7 +647,7 @@ and the spill over of the nav bar contact link onto a new line */
     }
 
     #menu li {
-        letter-spacing: 1px;
-        padding: 3px;
+        letter-spacing: 0;
+        padding: 1px;
     }
 }
