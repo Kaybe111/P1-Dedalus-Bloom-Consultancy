@@ -255,6 +255,17 @@ aside {
     margin-left: 200px;
 }
 
+#experimentfix {
+    background-color: blue;
+    font-family: 'Michroma', sans-serif;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
 #form-image {
     width: 50%;
     height: 400px;
