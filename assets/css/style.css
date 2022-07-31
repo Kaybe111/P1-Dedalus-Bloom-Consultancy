@@ -256,9 +256,8 @@ aside {
 }
 
 #form-image {
-    width: 400px;
+    width: 50%;
     height: 400px;
-    background-image: url(/assets/images/pexels-christina-morillo-1181346-thxpgSM.jpeg);
 }
 
 #form-image picture {
