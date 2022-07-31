@@ -133,11 +133,11 @@ I tested the site on different browsers and here I ran into problems on one page
 
 The code for the CSS passed through Jigsaw with no problems after I fixed the first few warnings and errors which cropped up. These are documented in the commits.
 
-The code for the HTML also passed the W3Validator, after some fixes. There is however one point of note, regarding the contact form. Because I tried to include the link out ot the thank you screen via the button '''onclick''', this throws an error in the '''form''' as I had to enter a #-tag in the '''method''' attribute.
+The code for the HTML also passed the W3Validator, after some fixes. There is however one point of note, regarding the contact form. Because I tried to include the link out ot the thank you screen via the button '''onclick''', this throws an error in the '''form''' as I had to enter a #-tag in the '''method''' attribute. I had to then fix this so it would still validate and navigate to the form by using the '''formaction''' attribute.
 
 ## Unfixed bugs
 
-The bug with the image on the contact.html page remains one that needs to be fixed.
+None to speak of
 
 # Deployment
 
