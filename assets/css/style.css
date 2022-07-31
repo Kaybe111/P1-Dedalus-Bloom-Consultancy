@@ -485,9 +485,9 @@ and the spill over of the nav bar contact link onto a new line */
     }
 
     #menu {
-        font-size: 45%;
+        font-size: 30%;
         height: 40px;
-        line-height: 20px;
+        line-height: 10px;
         float: left;
     }
 
@@ -647,7 +647,7 @@ and the spill over of the nav bar contact link onto a new line */
     }
 
     #menu li {
-        letter-spacing: 2px;
-        padding: 5px;
+        letter-spacing: 1px;
+        padding: 3px;
     }
 }
