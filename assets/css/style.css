@@ -643,7 +643,7 @@ and the spill over of the nav bar contact link onto a new line */
 
 @media screen and (max-width: 360px) {
     menu {
-        font-size: 40%;
+        font-size: 20%;
     }
 
     #menu li {
