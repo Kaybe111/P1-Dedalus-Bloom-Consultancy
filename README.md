@@ -1,108 +1,173 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Dedalus & Bloom Consulting
 
-Welcome Kaybe111,
+![screenshot LOGO](/assets/images/readme/screenshot-logo.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+- Link to site [Dedalus&Bloom Consulting](https://kaybe111.github.io/P1-Dedalus-Bloom-Consultancy/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Dedalus & Bloom Consulting is a fictional business consultancy group created for the purpose of the Portfolio1 project which operates in Europe and offers corporations and SMEs a range of services to optimize processes, manage projects and develop strategy in the areas of supply chain, customer services and fintech/instech solutions. The business model is therefore a traditional consultancy setup.
 
-## Gitpod Reminders
+Premise
+I had the idea recently about Dedalus creating wings for he and his son to soar to freedom and thought it would be a cool business idea for a consultancy as that is what they essentially do, that being to bring businesses to the next level. I made the link then to Ulysses as the two main characters are Stephen Dedalus and Leopold Bloom and the book is one of my favourites, so that's the idea for the site and business!
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Scenario - B2B consultancy business:
+The team of consultants can be contracted on project basis or can be held on retainer to offer a client business the opportunity to work flexibly based on their own demands and plans. The website presents the consultancy and should be attractive to hold the attention of potential B2B clients, offering them tasters and insights of their expertise by detailing some past projects on high level.
 
-`python3 -m http.server`
+![mockups](/assets/images/readme/responsive-mockup-screenshot.png)
 
-A blue button should appear to click: _Make Public_,
+# Features
 
-Another blue button should appear to click: _Open Browser_.
+Starting out with the idea of a consultancy I knew there would have to be a strong logo. I found Michroma on Google Fonts and thought this was perfect for the logo and nav bar to give them a very strong identity. I then used Cairo for the main pages content, as I thought it was a good match to the Michroma.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+At this stage I also considered the Strategy Plane of UX design.
 
-A blue button should appear to click: _Make Public_,
+### Strategy Plane considerations:
+- - Target audience = B2B, Corporate website looking to attract clients to contact the business and potentially start projects together
+- - Value, Unique Selling Point = Dedalus & Bloom bring Customer Journey mapping to the next level, connecting all business areas to the customer and translating KPI performance into hard revenue
+- - Competitors, decision makers = very diverse market with lots of consultancies offering similar services. Uniqueness of service mix combining dashboarding with client business model is offered at competitive price.
+- - User needs = Corporate decision makers on level of Board, Purchasing, Product Management and general Management will be looking to quickly be drawn in by attractive presentation, simple bundling and overview of services, drilling quickly from high level to more detailed granularity.
 
-Another blue button should appear to click: _Open Browser_.
+These considerations helped me craft the features required, namely:
+- a strong but simple landing page, like Apple keep it simple with an emotive image.
+- an overview of the services on offer, speaks for itself.
+- sample pricing, very important for B2B customers. Also mentioned is the mandatory 'wiggle room' depending on arrangements. A purchaser or manager will want to know that they can haggle.
+- a contact form, also there keeping it really simple with an emotive picture of enthusiastic workers looking forward to meeting/speaking.
+- a link to a thank you for supplying the form. A bit tricky since there is no POST server, so I had to fiddle a bit here to get something to work.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Existing Features
 
-To log into the Heroku toolbelt CLI:
+### Logo
+I already discussed the logo above, but worth noting is that I gave it a blue underline via a '''div''', which helps to give extra character to the logo and page. This bar also stretches to fill the width of the screen with smaller devices, as the effect of the half-screen bar is lost and it just looks a bit weird.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![screenshot LOGO](/assets/images/readme/screenshot-logo.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Nav Bar
 
-------
+As stated, the nav bar is in Michroma font to keep the character of the logo. It features an underline which denotes the active page, but I also created a '''hover''' effect for mouse-over to make sure the user also was clear about the navigation.
 
-## Release History
+![screenshot NAVBAR](/assets/images/readme/screenshot-navigationbar.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Footer
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+I wanted the footer to show the social media links as in the Love Running project, but I additionally wanted to include the company address details (fictional natually) and an '''iframe''' for Google Maps. I don't have the knowledge right now to use the API so the link is actually from the Coders Coffeehouse project.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![screenshot FOOTER](/assets/images/readme/screenshot-footer.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### About page
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+I included an image of the Dublin bridge at the financial district, in keeping with the business theme of the site. Also it's a Dublin bridge and many copies of 'Ulysses' by James Joyce have the Haypenny Bridge on them as a known Dublin landmark. I wanted to base the company in Dublin so wanted an image to emote this. Plus an image of a bridge is always a positive in business, where you constantly need to be building bridges. I wanted this strong emotional connection in the potential customer.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- I also borrowed the zoom animation from the Love Running project. I like the effect and to be honest I just wanted to practice with it. It does not detract from the site in my opinion and the movement can maybe help to keep a potential customer reading.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![screenshot ABOUT screen](/assets/images/readme/screenshot-about.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Services page
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The services page features an overview of the four main areas of support that the business would offer, which I came up with based on my own business experience. I found appropriate icons from Font Awesome and added those. I also changed the layout for smaller screens using a media query so the content is columnated vertically on larger screens and switches to horizontal text on the smaller ones.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![screenshot SERVICES screen](/assets/images/readme/screenshot-services.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Pricing page
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Money, money, money. It's always attractive for a business to have an idea of 'what's all this going to cost me now?' so I wanted to have a page featuring an overview for transparency, which gives a strong sense of expectation and increases the Customer Experience. I also got to use a table so was glad of the practice with it.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![screenshot PRICING screen](/assets/images/readme/screenshot-pricing.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Contact screen
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+I used a form to make it easier for the customer to reach out and start a conversation. I kept the required contact details to a minimal as this really upsets business customers when they have to waste their time filling in details with the fear that they will just end up on another mailing list somewhere.
 
-------
+To make it a bit more interesting I included an 'Ok to SMS/Whatsapp you?' radio button to attract the customer to an additional channel. I also included a text area for the customer to tell us 'why' they are looking at us. If you can already get the customer enthusiastic about working with you by letting them give some detail already, then you are already in the 'healthy dialogue' zone and you haven't even had to grab a phone or keyboard yet.
 
-## FAQ about the uptime script
+I additionally added a photo of some friendly contact personnel here, just to bring in some extra emotion and to vary it up visually, keeping it interesting with some human faces and smiles.
 
-**Why have you added this script?**
+![screenshot CONTACT screen](/assets/images/readme/screenshot-contact.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Thank You link
 
-**How will this affect me?**
+On the advice of my mentor, I was told that links should all work, including the form. This left me puzzled with my '''form''' as I could not use the post method attribute. I firstly took the one from the Code Institute form validator but then this navigated me away from the site and you had to use the browser 'back' buttons to get back into the site, which apparently is not very good. To get round this I used a '#' mark in the '''method''' attribute, then added an '''onclick''' link to the button which would lead to another html page which is not reachable via the nav bar.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+This page is very simple. A sincere thank you message for the customer reaching out, with a commitment to respond. Additionally I included a photo of two people working together on a flow-chart which symbolises cooperation and collaboration, essential to a good working relationship.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![screenshot THANKYOU screen](/assets/images/readme/screenshot-thankyou.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Features left to implement
 
-**So….?**
+I had a few from my 'scope plane requirements':
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Scope plane considertions:
 
-**Can I opt out?**
+#### Needs
+- [x] overview of services
+- [x] overview of company
+- [] overview of projects
+- [x] overview of pricing (retainer vs project/programme)
+- [x] contacts
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+#### Content requirements
+- [x] text
+- [] video
+- [x] photos/stills
+- [] chat and social media contacts
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+In essence there are two extra features I would include in future:
+- - a page of past partners, projects and testimonials to further add to the credibility of the business and thus increase the likelihood of being contracted.
+- - a live chat integrate in the site, but this is beyond the scope of my skills currently and also beyond the budget of Messrs Dedalus and Bloom.
 
-**Anything more?**
+# Testing
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+![screenshot lighthouse score](/assets/images/readme/screenshot-lighthouse.png)
 
----
+A Lighthouse test gave a very good score in all areas except performance. I do not have the skills to understand why at this stage.
 
-Happy coding!
+I tested the site using the Google Chrome tools for different devices:
+- Desktop Macbook Air
+- iPhone 12
+- MotoG4
+- iPad Pro
+
+All looked fine and worked.
+
+I tested the site on different browsers and here I ran into problems on one page, the contact.html page. The image worked in Gitpod when testing through port 8000, however when I check the Githubpages link in Safari and Chrome the image is not displayed, just the '''alt''' text. I unfortunately do not have time to fix this.
+
+## Validator Testing
+
+The code for the CSS passed through Jigsaw with no problems after I fixed the first few warnings and errors which cropped up. These are documented in the commits.
+
+The code for the HTML also passed the W3Validator, after some fixes. There is however one point of note, regarding the contact form. Because I tried to include the link out ot the thank you screen via the button '''onclick''', this throws an error in the '''form''' as I had to enter a #-tag in the '''method''' attribute.
+
+## Unfixed bugs
+
+The bug with the image on the contact.html page remains one that needs to be fixed.
+
+# Deployment
+
+![screenshot deployment Githubpages](/assets/images/readme/deployment-screenshot-githubpages.png)
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+- - In the GitHub repository, navigate to the Settings tab
+- - From the source section drop-down menu, select the Master Branch
+- - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+# Credits
+
+I have to thank James Joyce for the characters. The rest of the idea for the site is from my own business background.
+
+## Content
+
+The content for each page was wholly generated by me, the author. As stated this is all based on previous working experience.
+
+Credit to Code Institute for the animation on the main image on the About page. I used the same skills from the Love Running project to implement this in my own project.
+
+## Media
+
+[https://www.pexels.com/](https://www.pexels.com/)
+I used the website Pexels for the free images.
+- Dublin bridge on ABOUT page was courtesy of 'Luciann Photography'.
+- Contact center agents courtesy of Yan Krukov.
+- Flowchart collaboration image on ThankYou screen courtesy of Christina Morillo.
+
+
+                <picture>
+                    <source srcset="/assets/images/pexels-yan-krukov-8867482-L.jpeg" media="(min-width: 980px)">
+                    <img src="/assets/images/pexels-yan-krukov-8867482-M.jpeg" alt="picture of contact center staff smiling">
+                </picture>
